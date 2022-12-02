@@ -25,8 +25,8 @@ boolean chk = rs.next();
 if (chk == false) {
 	out.write("FAIL");
 } else {
-	int user_idx = rs.getInt("user_idx");
-	out.write(user_idx + "");
+	int userIdx = rs.getInt("user_idx");
+	out.write(userIdx + "");
 }
 
 conn.close();
